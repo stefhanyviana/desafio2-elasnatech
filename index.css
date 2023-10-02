@@ -1,0 +1,115 @@
+body{
+    background-color: #d2e6c0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.cabecalho{
+    background-image: url(img/cabecalho.png);
+    height: 720px;
+    background-size: cover;
+    padding-top: 1px;
+    background-attachment: fixed;
+}
+
+.div-cabecalho{
+    margin: 100px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.div-cabecalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.div-cabecalho a{
+    background-color: #659157;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 500px;
+}
+
+.div-cabecalho a:hover{
+    background-color: white;
+    color: #659157;
+}
+
+.cabecalho nav ul{
+    margin: 25px 40px 0 0;
+    text-align: right;
+}
+
+.cabecalho nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.cabecalho nav a{
+    color: white;
+    text-decoration: none;
+    background-color: #659157;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cabecalho nav a:hover{
+    background-color: white;
+    color: #659157;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+main article{
+    background-color: white;
+    height: 160px;
+    padding: 1px;
+}
+
+main h2{
+    background-color: #659157;
+    text-align: center;
+    color: white;
+    margin: 20px 20px;
+    font-size: 22px;
+    padding: 1px;
+}
+
+main p{
+    padding: 9px;
+    padding-left: 110px;
+}
+
+img{
+    float: left;
+    height: 100px;
+    transition: 0.5s
+}
+
+.div-img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: #659157;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
